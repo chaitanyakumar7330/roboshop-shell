@@ -1,4 +1,4 @@
-cp catalogue.repo /etc/systemd/system/catalogue.service
+cp catalogue.service /etc/systemd/system/catalogue.service
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 dnf install nodejs -y
 useradd roboshop
